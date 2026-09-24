@@ -1,5 +1,5 @@
 Pygodide build log
-Started: 2026-09-24T22:32:16.764435+00:00
+Started: 2026-09-24T22:37:54.917619+00:00
 Pygodide version: 0.1.0
 Python: 3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]
 Platform: Windows-11-10.0.26200-SP0
@@ -19,14 +19,15 @@ App entrypoint: main:main (default)
 Canvas aspect: found 640x480 in main.py
 Canvas: fixed 640x480 (as-is)
 Package files: 10 (auto-discovery)
-Dependency sources: none
-Resolved dependencies: none
+Dependency sources:
+  - [project].dependencies: pygame-ce
+Resolved dependencies: pygame-ce
 Install strategy:
-  - pyodide.loadPackage: (none)
+  - pyodide.loadPackage: pygame-ce
   - micropip.install: (none)
 Auto async: skipped main.py, entrypoint function 'main' was not found. Make the entrypoint async and add await asyncio.sleep(1 / (60 * 2)) once per frame (see https://pyodide.org/en/stable/usage/sdl.html).
 App archive: app.zip (10 files)
 Favicon: bundled default
 
 Result: success
-Finished: 2026-09-24T22:32:17.096817+00:00
+Finished: 2026-09-24T22:37:55.227875+00:00

@@ -1,9 +1,9 @@
 const status = document.getElementById("status");
 const canvas = document.getElementById("canvas");
 
-const pyodidePackages = [];
+const pyodidePackages = ["pygame-ce"];
 const micropipPackages = [];
-const declaredPackageNames = [];
+const declaredPackageNames = ["pygame-ce"];
 // Single compressed archive of game code + assets (build-time app.zip).
 const appArchivePath = "app.zip";
 const assetBasePath = "./";

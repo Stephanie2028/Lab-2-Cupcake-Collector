@@ -1,0 +1,6 @@
+[project]
+name = "cupcake-collector"
+version = "1.0.0"
+dependencies = [
+    "pygame-ce"
+]
