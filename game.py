@@ -98,7 +98,7 @@ while running:
     score_text = font.render(
         "Cupcakes collected: " + str(cupcakes_collected),
         True,
-        (255, 255, 255)
+        (0, 0, 0)
     )
 
     screen.blit(score_text, [10, 10])
