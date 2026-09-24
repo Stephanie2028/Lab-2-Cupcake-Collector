@@ -33,7 +33,7 @@ cupcake_images = [cupcake1, cupcake2, cupcake3]
 cowSPRx = 0
 cowSPRy = 410
 
-speed = 3
+speed = 5
 
 gravity = 0.5
 jump_strength = -13
@@ -98,7 +98,7 @@ while running:
     score_text = font.render(
         "Cupcakes collected: " + str(cupcakes_collected),
         True,
-        (0, 0, 0)
+        (255, 255, 255)
     )
 
     screen.blit(score_text, [10, 10])
